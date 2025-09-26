@@ -1,3 +1,0 @@
-git add .
-git commit -m "Add tsconfig.json and next-env.d.ts"
-git push
