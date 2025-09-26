@@ -1,8 +1,12 @@
 export default function Home() {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold text-center">Welcome to Fayis Store 🛒</h1>
-      <p className="text-center mt-4">Browse products and shop securely with Paystack.</p>
-    </div>
+    <main className="flex min-h-screen items-center justify-center bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">
+        Welcome to Fayis Store 🛒
+      </h1>
+      <p className="mt-4 text-lg text-gray-700">
+        Your one-stop shop built with Next.js, Supabase, and Paystack 🚀
+      </p>
+    </main>
   );
 }
